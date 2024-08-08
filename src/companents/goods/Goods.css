@@ -1,0 +1,8 @@
+.good__box {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.good__item:hover .good__box {
+    opacity: 1;
+}
