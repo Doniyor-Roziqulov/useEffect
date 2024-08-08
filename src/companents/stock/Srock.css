@@ -3,6 +3,46 @@
     transition: 0.5s;
 }
 
+.good__item {
+    width: 145px;
+}
+
+@media only screen and (min-width: 350px) {
+    .good__item {
+        width: 160px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .good__item {
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .good__item {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .good__item {
+        width: 220px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .good__item {
+        width: 260px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .good__item {
+        width: 280px;
+    }
+}
+
 .good__item:hover .good__box {
     opacity: 1;
 }

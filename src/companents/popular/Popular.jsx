@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { BsCartPlus } from "react-icons/bs";
 import axios from "axios";
+import "./Popular.css";
 
 const API_URl = "https://dummyjson.com/products/category";
 

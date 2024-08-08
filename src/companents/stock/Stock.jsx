@@ -17,7 +17,7 @@ const Stock = () => {
 
     const proitem = products?.map((item) => (
         <li
-            className="good__item w-36 sm:w-72 relative pt-3 pb-16 border border-white transition-all rounded-3xl hover:bg-slate-50 hover:border hover:border-slate-200"
+            className="good__item  sm:w-72 relative pt-3 pb-16 border border-white transition-all rounded-3xl hover:bg-slate-50 hover:border hover:border-slate-200"
             key={item.id}>
             <img
                 className="w-full h-40 sm:h-56 object-contain"
@@ -62,7 +62,7 @@ const Stock = () => {
                     </a>
                     <FaArrowRightLong />
                 </div>
-                <ul className="flex flex-wrap justify-between gap-y-4 md:justify-around">
+                <ul className="flex flex-wrap justify-between gap-y-4 md:justify-around gap-x-1">
                     {proitem}
                 </ul>
             </div>
